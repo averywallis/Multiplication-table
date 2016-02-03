@@ -25,5 +25,5 @@ w= int(input('Width of multiplication table?'))
 h= int(input('Height of multiplication table?'))
 
 
-for w in [x]:
+for w in range[0,w]:
    print(w)
