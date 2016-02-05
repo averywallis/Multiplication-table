@@ -21,13 +21,12 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
-w= int(input('Width of multiplication table?'))
-h= int(input('Height of multiplication table?'))
-print('Width of multiplication table:')
-print('Height of multiplication table:')
+w= int(input('Width of multiplication table: '))
+h= int(input('Height of multiplication table: '))
+
 
 for w in range(1,h+1):
     print("")
     for h in range(1,w+1):
         if len(str(w*h)):
-            print(w,h)
+            print("{0:>3}")
