@@ -23,7 +23,8 @@ Height of multiplication table: 8
 """
 w= int(input('Width of multiplication table?'))
 h= int(input('Height of multiplication table?'))
-
+print('Width of multiplication table:')
+print('Height of multiplication table:')
 
 for w in range(1,h+1):
     print(" ")
